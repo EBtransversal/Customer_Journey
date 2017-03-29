@@ -8,9 +8,9 @@ Then(/^I should csee articles$/) do
 end
 
 When(/^I go to the blog$/) do
-  visit "https://cucumber.pro/"
+  visit "https://google.in/"
 end
 
 Then(/^I should see articles$/) do
-  click_link "Blog"
+  click_link "Search"
 end
